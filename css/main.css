@@ -67,14 +67,8 @@ hr {
 .header {
 	margin-bottom: 15px;
 	border-bottom: solid 10px #000;
-	background-image: url("../images/background.jpg");
 	background-color: #ebeaea;
 	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.header-top {
 }
 
 .header-top-inner {
@@ -128,49 +122,4 @@ hr {
 	text-transform: uppercase;
 	color: #d9d9d9;
 	font-weight: 600;
-}
-
-.content {
-	max-width: 1400px;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-.content-top {
-	max-width: 75%;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	text-align: center;
-}
-
-.content-top img {
-	padding-top: 30px;
-	max-width: 300px;
-	height: auto;
-}
-
-.content-middle {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.content-middle-form,
-.content-middle-img {
-	width: 30%;
-	text-align: center;
-}
-
-.content-middle-img img {
-	max-width: 300px;
-}
-
-.content-middle-form input {
-	padding: 5px;
-	margin-right: auto;
-	margin-left: auto;
-	width: 100%;
-	max-width: 300px;
 }
