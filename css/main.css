@@ -1,0 +1,176 @@
+/* fonts */
+h1, h2, h3, h4, h5 {
+	margin: 0 0 15px 0;
+	font-family: 'Quantico', sans-serif;
+	color: #000;
+	font-weight: 700;
+	line-height: 1.2;
+}
+
+h1 {
+	font-size: 52px;
+}
+
+h3 {
+	font-size: 40px;
+}
+
+h4 {
+	font-size: 32px;
+}
+
+p {
+	margin: 0;
+	font-size: 18px;
+	color: #222;
+	font-weight: 400;
+	font-family: 'Spectral', serif;
+	line-height: 1.2;
+}
+
+a {
+	margin: 0;
+	font-size: 18px;
+	color: #222;
+	font-weight: 400;
+	font-family: 'Spectral', serif;
+	line-height: 1.2;
+	text-decoration: none;
+}
+
+/* general */
+
+body {
+	margin: 0;
+	background-color: #71797E;
+}
+
+hr {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-color: #888;
+}
+
+.btn {
+	padding: 8px 16px;
+	border: none;
+	background: #000;
+	color: #d9d9d9;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background: #d9d9d9;
+	color: #000;
+}
+
+.header {
+	margin-bottom: 15px;
+	border-bottom: solid 10px #000;
+	background-image: url("../images/background.jpg");
+	background-color: #ebeaea;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header-top {
+}
+
+.header-top-inner {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+.header-top p {
+	text-shadow: 0 0 2px #000;
+	color: #d9d9d9;
+	font-weight: 600;
+}
+
+.header-bottom a {
+	margin: 0 0 15px 0;
+	font-size: 70px;
+	text-shadow: 3px 3px 0 #fff;
+	font-family: 'Quantico', sans-serif;
+	color: #000;
+	font-weight: 700;
+	line-height: 1.2;
+}
+
+.header-bottom {
+	max-width: 1400px;
+	margin: 10px auto;
+	text-align: center;
+}
+
+.menubar {
+}
+
+.menubar,
+.menubar-inner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.menubar a {
+	min-width: 165px;
+	padding: 10px 10px 5px 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: #000;
+	border-radius: 10px 10px 0 0 ;
+	text-align: center;
+	text-transform: uppercase;
+	color: #d9d9d9;
+	font-weight: 600;
+}
+
+.content {
+	max-width: 1400px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.content-top {
+	max-width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.content-top img {
+	padding-top: 30px;
+	max-width: 300px;
+	height: auto;
+}
+
+.content-middle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content-middle-form,
+.content-middle-img {
+	width: 30%;
+	text-align: center;
+}
+
+.content-middle-img img {
+	max-width: 300px;
+}
+
+.content-middle-form input {
+	padding: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	max-width: 300px;
+}
